@@ -11,7 +11,7 @@
     printf("Introducir la longitud del cateto2:\n");
     scanf("%lf", &b);
     
-    hipotenusa = sqrt(a);
-    printf("hipotenusa es; %lf", hipotenusa);
+    //hipotenusa = sqrt(a);
+    //printf("hipotenusa es; %lf", hipotenusa);
  
  }
