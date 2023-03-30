@@ -1,10 +1,11 @@
 //Desarrolle un algoritmo que permita leer un valor cualquiera N y escriba si dicho número es par o impar.
-#include<stdio.h>
+
+#include <stdio.h>
 
 int main (){
     int n;
 
-    printf("introducir un númer para saber si es par o impar:\n");
+    printf("introducir un número para saber si es par o impar:\n");
     scanf("%i", &n);
 
 
@@ -16,6 +17,4 @@ int main (){
    {
     printf("%i es impar\n", n);
    }
-   
-    
 }
