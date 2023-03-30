@@ -12,7 +12,7 @@ int main(){
         scanf("%d", &b);
         printf("ingresar tercer valor entero:\n");
         scanf("%d", &c);
-    } while (a==b || a==c || b==c);
+    } while (a==b || a==c || b==c); 
 
     printf("\n resultado:\n");
 
