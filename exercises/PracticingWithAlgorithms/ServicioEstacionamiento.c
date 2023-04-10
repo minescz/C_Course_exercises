@@ -25,7 +25,7 @@ int main(){
     else if (TiempoTotal > 100) {
         TiempoTotal = TiempoTotal - 100;
         TiempoTotal = ceil(TiempoTotal/100);
-        MontoTotal = XPrimeraHora + (XMásDeUnaHora * (TiempoTotal));
+        MontoTotal = XPrimeraHora + (XMásDeUnaHora * TiempoTotal);
 
         printf("El monto a pagar es:%.2f", MontoTotal);
     }
