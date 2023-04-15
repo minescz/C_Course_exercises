@@ -4,7 +4,6 @@
 int main(){
     int cant;
     int num = 1;
-    int contador= 0;
     float suma = 0;
     float promedio;
     
@@ -17,13 +16,12 @@ int main(){
     {
         printf("Ingresar nota(%i):", num);
         scanf ("%i", &nota[i]);
-
-        contador = contador+1;
+        //contador = contador+1;
         num = num +1;
 
         suma = suma + nota[i];
     }
 
-    promedio = suma/contador; 
+    promedio = suma/cant; 
     printf("El promedio es:%.2f", promedio);
 }
