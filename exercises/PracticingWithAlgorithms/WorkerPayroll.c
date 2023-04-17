@@ -13,17 +13,15 @@ int main() {
     printf("Ingresar cantidad de obreros:\n");
     scanf("%i", &NumObreros);
 
-    printf("Ingresar Horas trabajadas:\n");
+    printf("Ingresar Horas trabajadas:\n");             
     scanf("%i", &HorasTrabajadas);
-    if (HorasTrabajadas > 120)
-    {
-        TotalAPagar = HorasTrabajadas * NumObreros * SueldoXHora;
-    TotalXObrero = TotalAPagar/ NumObreros;
 
-    printf("Total a pagar:%i\n", TotalAPagar);
-    printf("Monto por Obrero:%i\n", TotalXObrero);
-    }
-    else {
+    if (HorasTrabajadas >= 120){
+        TotalAPagar = HorasTrabajadas * NumObreros * SueldoXHora;
+        TotalXObrero = TotalAPagar/ NumObreros;
+        printf("Total a pagar:%i\n", TotalAPagar);
+        printf("Monto por Obrero:%i\n", TotalXObrero);
+    } else {
         printf("No hay horas suficientes.");
     }
 
